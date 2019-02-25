@@ -17,7 +17,6 @@ namespace BasicBlockchain
 		// Data element
 		public D Data { get; private set; }
 
-
 		// Constructor
 		public Block( int difficulty, uint index, string previousHash, D data )
 		{

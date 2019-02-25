@@ -8,11 +8,11 @@ namespace BasicBlockchain
 	{
 		static void Main( string[] args )
 		{
-			//Integer_Chain_Demo();
+			Integer_Chain_Demo();
 
 			//Transaction_Chain_Demo();
 
-			Coin_Chain_Demo();
+			// Coin_Chain_Demo();
 
 			Console.ReadLine();
 		}

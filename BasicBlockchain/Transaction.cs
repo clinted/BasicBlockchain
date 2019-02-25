@@ -12,8 +12,8 @@ namespace BasicBlockchain
 
 		public Transaction()
 		{
-
 		}
+
 		public Transaction(string activity, string fromAddress, string toAddress, int amount)
 		{
 			Activity = activity;

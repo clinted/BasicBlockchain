@@ -6,7 +6,7 @@ namespace BasicBlockchain
     public class CoinChain : BlockChain<TransactionList>
     {
         TransactionList PendingTransactions = new TransactionList();
-        private int Reward = 1; // 1 currency
+        private readonly int Reward = 1; // 1 currency
 
         public CoinChain()
             : base( 2 )
