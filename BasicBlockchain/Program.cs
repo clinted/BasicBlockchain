@@ -12,7 +12,7 @@ namespace BasicBlockchain
 
 			//Transaction_Chain_Demo();
 
-			// Coin_Chain_Demo();
+			//Coin_Chain_Demo();
 
 			Console.ReadLine();
 		}
@@ -22,7 +22,7 @@ namespace BasicBlockchain
 			var stopWatch = new Stopwatch();
 			stopWatch.Start();
 
-			var intChain = new BlockChain<int>( difficulty: 4 );
+			var intChain = new BlockChain<int>( difficulty: 2 );
 			intChain.MineBlock( 25 );
 			intChain.MineBlock( 33 );
 			intChain.MineBlock( 22 );
